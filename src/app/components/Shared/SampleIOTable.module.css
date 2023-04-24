@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    background-color: var(--sampleio_table_background);
+}
+.problem{
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+}
+.table{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 1rem;
+    border-bottom: 1px solid black;
+    padding: 15px;
+    border-bottom: var(--sampleio_table_border);
+}
+
+.table pre{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 15px;
+}
+.table:nth-child(1){
+    border-right: var(--sampleio_table_border);
+    padding-left: 1px;
+}

@@ -2,7 +2,7 @@ import { PropsWithChildren } from 'react';
 import styles from './Button.module.css'
 
 interface ButtonProps {
-    type: 'primary' | 'secondary';
+    type: 'primary' | 'secondary' | 'icon';
     disabled?: boolean;
     handleClick?: () => void;
 }

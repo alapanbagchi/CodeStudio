@@ -19,7 +19,6 @@
 .navlist{
     display: flex;
     align-items: center;
-    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -50,4 +49,7 @@
     display: flex;
     margin-left: auto;
     gap: 8px;
+}
+.active{
+    color: var(--navbar_link_active) !important;
 }
